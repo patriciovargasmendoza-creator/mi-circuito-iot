@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475107025046",
+    "project_id": "pulsoiot-dbc34",
+    "storage_bucket": "pulsoiot-dbc34.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475107025046:android:7b28801ae64bb0075be2b7",
+        "android_client_info": {
+          "package_name": "cl.pulsoiot.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHGKwV45ibyf1B6oV2otebhyzVPFmkq0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

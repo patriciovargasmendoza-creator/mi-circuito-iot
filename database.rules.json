@@ -1,0 +1,16 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "users": {
+      "$rut": {
+        ".read": true,
+        ".write": "!data.exists()",
+        ".validate": "newData.hasChildren(['rut','nombre','apellido','correo','cargo','passwordHash','salt'])"
+      }
+    },
+    "circuit": { ".read": true, ".write": true },
+    "sensors": { ".read": true, ".write": true },
+    "actions": { ".read": true, ".write": true }
+  }
+}
